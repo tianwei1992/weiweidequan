@@ -1,0 +1,33 @@
+<view class="box1" style="border:4px solid grey" >
+<view class="title">关于“薇薇的圈”
+</view>
+
+<view class="outwords"  >  
+<text class="words" space="nbsp"  decode="true">  1、比较简陋，见谅~
+  2、7天,1个人~
+  3、但因为后台建设中，有两个模块上传功能还不能用~
+  4、Anyway,may you like it~
+	</text>
+  <view class="sign" > Grace.T.W.
+  </view>
+  <view class="words" >建议or帮助，请点击下方按钮~</view>
+  <view class="help">
+  <button 
+   class="btn"
+  style="border:1px solid black" 
+  type="default-light" 
+  size="mini"
+  session-from="weapp"
+  open-type="contact"
+  hover-class="navigator-hover"
+  flex
+>
+<image class="icon" src="../../icons/message.png"  style="width: 30px; height: 30px; " mode="aspectFit" ></image>contact me！
+</button>
+</view>
+</view>
+</view>
+
+<view class="usermotto">
+    <text class="user-motto">Developed by Grace.T.W.</text>
+</view>

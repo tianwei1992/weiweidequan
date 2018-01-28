@@ -1,0 +1,69 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">你好呀，{{userInfo.nickName}}~</text>
+    </block>
+  </view>
+</view>
+
+
+
+
+<view class="navigator_area">
+
+<view class="music_area">
+  <navigator  url="../music/music" hover-class="navigator-hover">
+
+<image src="../../icons/music.png"  style="width: 50px; height: 50px; background-color: #eeeeee;" mode="aspectFit"></image>
+<view>好听的音乐</view>
+</navigator>
+</view>
+
+
+<view class="place_area">
+  
+  <navigator url="../place/place" hover-class="navigator-hover">
+  <image src="../../icons/place.png"  style="width: 50px; height: 50px; background-color: #eeeeee;" mode="aspectFit"></image>
+  <view>好玩的地方</view>
+  </navigator>
+</view>
+
+</view>
+
+
+
+<view class="navigator_area">
+
+<view class="photo_area">
+  <navigator url="../photo/photo" hover-class="navigator-hover" bindtap="wait">
+  <image src="../../icons/photo.png"  style="width: 50px; height: 50px; background-color: #eeeeee;" mode="aspectFit"></image>
+  <view>好看的照片</view>
+  </navigator>
+</view>
+
+
+<view class="food_area" >
+  
+  <navigator url="../food/food" hover-class="navigator-hover" bindtap="wait">
+<image src="../../icons/food.png"  style="width: 50px; height: 50px; background-color: #eeeeee;" mode="aspectFit"></image>
+<view>好吃的食物</view>
+</navigator>
+</view>
+
+
+</view>
+
+
+
+
+
+<view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+</view>
+
+
+

@@ -1,0 +1,80 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 50px;
+  text-align:center;
+  border-style:  dashed;
+}
+  
+
+/** 修改默认的navigator点击态 **/
+.navigator-hover {
+    color:blue;
+}
+/** 自定义其他点击态样式类 **/
+.other-navigator-hover {
+    color:orange;
+}
+
+.navigator_area{
+	display: -webkit-flex;
+	flex-direction: row;
+  width:100%;
+	text-align:center;
+  border-radius: 0%;
+  background-color:aliceblue;
+ 
+
+}
+
+
+  
+.food_area{
+	width: 280rpx;
+  height: 177rpx;
+  margin: 50rpx;
+  text-align:center;
+  
+  
+}
+
+.music_area{
+	width: 280rpx;
+  height: 177rpx;
+  margin: 50rpx;
+  text-align:center;
+  
+}
+
+.photo_area{
+	width: 280rpx;
+  height: 177rpx;
+  margin: 50rpx;
+  text-align:center;
+  
+  
+}
+
+.place_area{
+	width: 280rpx;
+  height: 177rpx;
+  margin: 50rpx;
+  text-align:center;
+  
+}

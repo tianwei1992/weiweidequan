@@ -1,0 +1,7 @@
+<view class="title">我的照片</view>
+<text>因后台服务器还没搭好，上传功能暂时不可用</text>
+<button bindtap="uploadImg">上传图片
+</button>
+<image src="{{imgSrc}}" style="width: 700rpx; height: 700rpx;" ></image>
+
+

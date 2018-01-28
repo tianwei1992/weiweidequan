@@ -1,0 +1,49 @@
+@import "../place/place.wxss";
+@import "../index/index.wxss";
+.audio{
+  weight:100%;
+  text-align:center;
+  margin-top:20rpx;
+   margin-bottom:20rpx;
+  border-top-style:solid;
+}
+.query{
+  color: lightsteelblue;
+  width: 480rpx;
+  height: 50rpx;
+  margin-top: 2rpx;
+  margin-bottom: 2rpx;
+  margin-left: 60rpx;
+  font-size:18px;
+ 
+}
+.query2{
+  margin-left: 40rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+.playlist{
+  display: -webkit-flex;
+	flex-direction: column;
+  width:100%;
+	text-align: inherit;
+  border-radius: 0%;
+  background-color:aliceblue;
+}
+.border{
+  border-style:  solid;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  margin-top: 5rpx;
+  border-radius: 20%;
+  font-weight: bold;
+ 
+}
+
+.btn{
+ margin-left: 150rpx;
+  margin-right: 150rpx;
+  margin-top: 10rpx;
+  background-color:whitesmoke;
+}

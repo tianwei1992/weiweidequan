@@ -1,0 +1,27 @@
+<!--pages/music/music.wxml-->
+<view class="title">我与音乐</view>
+<view class="audio">
+<audio poster="{{songs[index].poster}}" name="{{songs[index].name}}" author="{{songs[index].author}}" src="{{songs[index].src}}" id="myAudio" controls loop bindplay="funplay" bindpause="funpause" bindtimeupdate="funtimeupdate" bindended="funended" binderror="funerror"></audio>
+</view>
+<view class="query">Hi~今天想听哪首歌？</view>
+<view class="query">(点击下方黑框，按歌名选择)</view>
+
+<picker range="{{songs}}"
+range-key ="name" bindchange="bindPickerChange" value="{{index}}" >
+<view class="playlist">
+	<view class="query2" >当前第{{(index+1)}}首：</view>
+  <view class= "border" >  {{songs[index].name}} by {{songs[index].author}}</view>
+  </view>
+</picker>
+
+<view class="btn">
+<button type="primary"  bindtap="audioPlay" plain>播放当前
+</button>
+<button type="primary" bindtap="audioPause" plain>暂停</button>
+<button type="primary" plain bindtap="audioNext">下一首</button>
+<button type="primary" bindtap="audioFirst" plain > 第一首</button>
+<button type="primary" bindtap="audioStart" plain >重听</button>
+</view>
+<view class="usermotto">
+    <text class="user-motto">感谢聆听！</text>
+</view>

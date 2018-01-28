@@ -1,0 +1,2 @@
+@import "../place/place.wxss";
+@import "../index/index.wxss";

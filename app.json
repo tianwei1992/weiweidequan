@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/food/food",
+    "pages/photo/photo",
+    "pages/music/music",
+    "pages/place/place",
+      "pages/info/info"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "薇薇的圈",
+    "navigationBarTextStyle":"white"
+  },
+
+
+  "tabBar": {
+  "backgroundColor":"white",
+  "color":"grey",
+  "selectedColor": "black",
+  "borderStyle":"black",
+  "position":"bottom",
+  "list": [
+    {
+      "pagePath":"pages/index/index",
+      "text":"首页",
+      "iconPath":"icons/home.png",
+      "selectedIconPath":"icons/home_fill.png"
+    },
+   
+    {
+      "pagePath":"pages/info/info",
+      "text":"关于",
+      "iconPath": "icons/about.png",
+      "selectedIconPath": "icons/about_fill.png"
+      
+    }
+  ]
+},
+
+  "debug":"true"
+
+}

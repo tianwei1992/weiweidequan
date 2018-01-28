@@ -1,0 +1,31 @@
+<!--pages/place/place.wxml-->
+<view class="title"> 我与城市</view>
+<map  id="map"  class="map"
+longitude="104.620940" latitude="30.127630" scale="14"  bindcontroltap="controltap" bindregionchange="regionchange"   show-location style="width: 100%; height: 300px;">
+</map>
+<button bindtap="gotoPlace1" > Go：我的家乡
+</button>
+<button bindtap="gotoPlace2" > Go：我的大学
+</button>
+<button bindtap="gotoPlace3" > Go：我现在的城市
+</button>
+<button bindtap="whereAreYou"> 那么，你在哪里呢？
+</button>
+<button bindtap="whereToGo"> 那么，你想去哪里呢？
+
+</button>
+
+ <view class="page-body-wrapper">
+
+      <form bindsubmit="openLocation">
+        <view class="page-body-form">
+        	<text class="page-body-form-key">经度</text>
+            <input class="page-body-form-value" type="text" value="{{location.longitude}}" name="longitude"></input>
+
+            <text class="page-body-form-key">纬度</text>
+            <input class="page-body-form-value" type="text"  value="{{location.latitude}}" name="latitude"></input>
+
+          <button class="page-body-button" type="primary" formType="submit">查看位置</button>
+        </view>
+    </form>
+</view>

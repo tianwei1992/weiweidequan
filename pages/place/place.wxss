@@ -1,0 +1,38 @@
+/* pages/place/place.wxss */
+.page-body-form-key{
+  font-size:16px;
+  padding: 10px;
+  margin-top:15px;
+  font-family: "Microsoft Yahei";
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+}
+
+.page-body-button{
+  margin-top:20px;
+  line-height: 2;
+}
+.page-body-form-value{
+  font-size: 14px;
+  color:darkturquoise;
+  font-weight: bold;
+  padding-left: 15px;
+  border: 1px solid rgb(72, 165, 131);
+  border-radius: 4px;
+  height: 30px;
+  line-height: 30px;
+}
+.title{
+	font-size:22px;
+	color:cornflowerblue;
+	margin-bottom: 5px;
+  margin-top: 5px;
+  text-align:center;
+   font-weight: bold;
+  
+}
+
+.map{
+  border-top-style: solid;
+}

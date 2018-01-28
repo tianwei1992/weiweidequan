@@ -1,0 +1,53 @@
+@import "../place/place.wxss";
+@import "../index/index.wxss";
+.box1{
+	padding:10rpx;
+	height:850rpx;
+	align-items: center;
+	margin:10rpx;
+	display: flex;
+  flex-direction: column;
+}
+.outwords{
+	background-color:aliceblue;
+	align-items: center;
+	width:600rpx;
+  margin: 15rpx;
+  border-radius: 20%;
+  padding:50rpx;
+}
+.words{
+   font-size: 20px;
+   margin-top: 30rpx;
+}
+.sign{
+  font-size: 18px;
+   margin-top: 60rpx;
+   margin-bottom: 40rpx;
+   border-bottom-style:solid;
+   align-items:  center ;
+   margin-left:400rpx;
+}
+.help{
+  margin-top: 20rpx;
+   margin-bottom: 20rpx;
+   align-items:  center ;
+  
+
+}
+.box2{
+	padding:20px;
+	height:50%;
+	margin:100rpx;
+	
+
+}
+
+.btn{
+	border-radius:10%;
+ margin-left:150rpx;
+	display: flex;
+  flex-direction: row;}
+.icon{
+	margin:0rpx;
+}
